@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import {Route,Switch,NavLink} from 'react-router-dom'
-import {ShopItem} from './components/ShopItem'
-import {Clock} from './components/Clock'
+import {ShopItem} from './components/shopItem/ShopItem'
+import {Clock} from './components/Clock/Clock'
 
 class App extends React.Component {
 
