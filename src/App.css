@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.app{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapperMag{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: minmax(600px,50vw);
+	background:linear-gradient(170deg,  #303775 0%,#303775 50%,#b3b3b3 50.1%,  #b3b3b3 100%);
+}
+
+.content{
+	width: 100%;
+	max-width: 1110px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: auto;
+}
+
+.cardImg{
+	width: 55%;
+}
+
+.cardImg img{
+	width: 100%;
+}
+
+.cardInfo{
+	width: 100%;
+	padding: 5vw 3vw;
+	background-color: #fff;
+	height: 100%;
+}
+
+h2{
+	line-height: 1.7;
+	font-size: 2vw;
+}
+
+h1{
+	text-transform: uppercase;
+	line-height: 1;
+	margin: 10px 0;
+	font-size: 4vw;
+}
+
+.descr{
+	text-transform: uppercase;
+	font-weight: bolder;
+	color:grey;
+	margin-bottom: 30px;
+}
+.descrFull{
+	font-size:16px;
+}
+
+hr{
+	width: 80%;
+	margin: 30px 10%;
+	border:none;
+	height: 1px;
+	background-color: #ccc;
+}
+
+.wrapperBuy{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: auto
+}
+
+.price{
+	font-size: 3.5vw;
+	font-weight: 600;
+}
+
+button{
+	outline: none;
+	border:none;
+	background-color: grey;
+	padding:15px 30px;
+	color:white;
+	font-size: 16px;
+}
+
+button:hover{
+	background-color: darkgrey;
+}
+
+.nav{
+	padding:30px 25%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.nav a{
+	text-decoration: none;
+	color:black;
+	-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    display:inline-block;
+    font-size: 18px;
+}
+
+.nav a:hover{
+	font-weight: 600;
+}
+       
+.nav a::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    transition: width 0.4s ease-in-out;
+}
+.nav a:hover::after,
+.nav a:focus::after {
+    width: 100%;
+}
+
+.sendDate{
+	margin-top: 30px;
+	height: 40px;
+	display: flex;
+}
+
+.sendDate input{
+	width: 50%;
+	height: 40px;
+	outline: none;
+	background-color: #b4cbe5;
+	border:none;
+	padding: 0 20px;
+}
+
+.sendDate button{
+	width: 50%;
+	height: 40px;
+	padding: 0;
+	font-size: 14px;
+	background-color: #284B72;
+}
+
+.sendDate button:hover{
+	background-color: #1F3A58;
+}
