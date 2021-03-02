@@ -1,7 +1,7 @@
 import React from 'react'
 import {ShopItemFunc} from './ShopItemFunc'
 import ShopItemClass from './ShopItemClass'
-import img from '../image/1.jpg'
+import img from '../../image/1.jpg'
 
 export const ShopItem = ({item}) => {
 
