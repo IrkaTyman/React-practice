@@ -4,6 +4,7 @@ import {Route,Switch,NavLink} from 'react-router-dom'
 import {ShopItem} from './components/shopItem/ShopItem'
 import {Clock} from './components/Clock/Clock'
 import {Portfolio} from './components/portfolio/Portfolio'
+import {Store} from './components/store/Store'
 
 class App extends React.Component {
 
@@ -37,6 +38,7 @@ class App extends React.Component {
         	<div className="nav">
         		<NavLink to='/shop'>Карточка магазина</NavLink>
         		<NavLink to='/clock'>Календарь</NavLink>
+	    		<NavLink to='/store'>Магазин</NavLink>
         	</div>
         	
         	<Switch>
@@ -62,6 +64,7 @@ class App extends React.Component {
 							)
 					}}/>
 			<Route path='/portfolio' component = {Portfolio}/>
+			<Route path='/store' component = {Store}/>
         	</Switch>
           	
         </div>
