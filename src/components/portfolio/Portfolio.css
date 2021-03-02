@@ -1,0 +1,38 @@
+.actives{
+	background-color: rgba(0,0,0,0.6);
+}
+
+.portfolio{
+	width: 100%;	
+	display: flex;	
+	flex-direction: column;
+	align-items: center;	
+}
+
+.toolbar{
+	margin-bottom: 60px;	
+}
+
+.projects{
+	max-width: 1110px;	
+	width: 100%;	
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;
+}
+
+.column{
+	width: 100%;
+}
+
+.column img{
+	width: 100%;
+	margin-bottom: 10px;		
+}
+
