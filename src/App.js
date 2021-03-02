@@ -3,6 +3,7 @@ import './App.css';
 import {Route,Switch,NavLink} from 'react-router-dom'
 import {ShopItem} from './components/shopItem/ShopItem'
 import {Clock} from './components/Clock/Clock'
+import {Portfolio} from './components/portfolio/Portfolio'
 
 class App extends React.Component {
 
@@ -60,6 +61,7 @@ class App extends React.Component {
 							
 							)
 					}}/>
+			<Route path='/portfolio' component = {Portfolio}/>
         	</Switch>
           	
         </div>
