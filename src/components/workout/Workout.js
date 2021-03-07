@@ -84,7 +84,7 @@ export class Workout extends React.Component{
 					</label>
 					<button onClick={this.buttonHandler}>OK</button>
 				</div>
-				<div className="workout_print">
+				{this.state.work != false ? <div className="workout_print">
 					<div className="workout_print__headers">
 						<p>Дата(ДД.ММ.ГГ)</p>
 						<p>Пройдено км</p>
@@ -104,7 +104,7 @@ export class Workout extends React.Component{
 						)
 					})}
 					</div>
-				</div>
+				</div> : null}
 			</div>
 			)
 	}
