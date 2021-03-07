@@ -55,8 +55,7 @@
 
 .workout_print__info{
 	width: 100%;
-	padding: 2vw;
-	padding-right: 5vw;
+	padding: 2vw 5vw calc(2vw - 5px) 2vw;
 	border-radius: 1.5vw;
 	border: 2px solid black;
 	margin-top: 2vw;
