@@ -1,0 +1,83 @@
+.workout_wrapper{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.workout_input{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 3vw;
+}
+
+.workout_input label{
+	display: flex;
+	flex-direction: column;align-items: flex-start;
+}
+
+.workout_input label input{
+	padding: 1vw;
+	outline: none;
+	border:2px solid black;
+	border-radius: 0.6vw;
+	margin-top: 1vw;
+	font-size: 1vw;
+}
+
+.workout_input button{
+	padding: 1vw;
+	min-width: 100px;
+	border:2px solid black;
+	border-radius: 0.6vw;
+	font-size: 1vw;
+	background-color: white;
+	color:black;
+	font-weight: bold;
+}
+
+.workout_print{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.workout_print__headers{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5vw 0 2vw;
+}
+
+.workout_print__info{
+	width: 100%;
+	padding: 2vw;
+	padding-right: 5vw;
+	border-radius: 1.5vw;
+	border: 2px solid black;
+	margin-top: 2vw;
+}
+
+.workout-one{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.workout-one button{
+	background-color: white;
+	min-width: 0;
+	padding: 0 5px;
+	color:black;
+	margin: 0 5px;
+}
+
+.workout-one button:hover{
+	font-weight: bold;
+	background-color: #eee;
+}
