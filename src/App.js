@@ -5,6 +5,10 @@ import {ShopItem} from './components/shopItem/ShopItem'
 import {Clock} from './components/Clock/Clock'
 import {Portfolio} from './components/portfolio/Portfolio'
 import {Store} from './components/store/Store'
+import {Dropdown} from './components/dropdown/Dropdown'
+import {HexInRgb} from './components/hexInRgb/HexInRgb'
+import {Workout} from './components/workout/Workout'
+import {Jandex} from './components/jandex/Jandex'
 
 class App extends React.Component {
 
@@ -39,6 +43,11 @@ class App extends React.Component {
         		<NavLink to='/shop'>Карточка магазина</NavLink>
         		<NavLink to='/clock'>Календарь</NavLink>
 	    		<NavLink to='/store'>Магазин</NavLink>
+	    		<NavLink to='/dropdown'>Выпадающий список</NavLink>
+        		<NavLink to='/hir'>HEX в RGB</NavLink>
+        		<NavLink to='/workout'>Учет тренировок</NavLink>
+        		<NavLink to='/jandex'>Поисковик</NavLink>
+	    
         	</div>
         	
         	<Switch>
@@ -65,6 +74,10 @@ class App extends React.Component {
 					}}/>
 			<Route path='/portfolio' component = {Portfolio}/>
 			<Route path='/store' component = {Store}/>
+			<Route path='/dropdown' component = {Dropdown}/>
+			<Route path='/hir' component = {HexInRgb}/>
+			<Route path='/workout' component = {Workout}/>
+			<Route path='/jandex' component = {Jandex}/>
         	</Switch>
           	
         </div>
