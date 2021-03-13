@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapperJandex{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.jandex{
+	width: 100%;
+	max-width: 1330px;
+}
+
+.text{
+	font-size: 1vw;
+}
+
+.jandex a{
+	text-decoration: none;
+	color:#023AA2;
+	font-weight: bold;
+}
+
+.jandex a:hover{
+	color:#023AA2;
+}
+
+.linkBig{
+	font-size: 1.4vw;			
+}
+
+/***************NEWS*******************/
+
+.listNews p{
+	margin: 10px 0;
+}
+
+.listLink{
+	display: flex;
+	align-items: center;
+	color:#A7A7A7;
+}
+
+.listLink p{
+	font-size: 0.7vw;
+}
+
+.listLink a,.listLink p{
+	margin: 0 10px;
+}
+
+.listLink a:first-child{
+	margin-left: 0;
+}
+
+/************SEARCH***************/
+.search{
+	width: 100%;		
+	margin: 3vw 0;	
+}
+
+.linkSearch{
+	width: 70%;	
+	display: flex;	
+	justify-content: space-between;	
+}
+
+.inputWrapper {
+	margin: 0.8vw 0;
+	width: 100%;
+	height: auto;
+	display: flex;	
+	align-items: center;
+	justify-content: space-between;			
+	border:2px solid #FFE000;
+	-webkit-clip-path: polygon(0% 0%, 98% 0%, 100% 50%, 98% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 98% 0%, 100% 50%, 98% 100%, 0% 100%);
+}
+
+.inputWrapper img{
+	height: 2vw	;
+	min-height: 20px;
+	margin-left: auto;
+	margin-right: 1.5vw;
+}
+.inputWrapper input{
+	width: 100%;
+	outline: none;
+	border:none;
+	margin-left: 1.5vw;
+	font-size: 1vw;
+}
+
+.inputWrapper button{
+	background-color: #FFE000;
+	color:black;
+	padding: auto;
+	font-weight: bold;
+}
+
+.inputWrapper button:hover{
+	background-color: #FFD100;
+}
+
+.textBottom{
+	display: flex;
+}
+
+.textBottom span{
+	color:#A7A7A7;
+	margin-left: 0.3vw;
+}
+
+/************Advertising****************/
+.advertising{
+	width: 70%;
+	height: 7vw;
+	background-color: #000;
+	display: flex;
+	margin-bottom: 3vw;
+}
+
+.advertisingBtn{
+	margin: 1vw;
+	margin-top: auto;
+	background-color: #FF0017;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.advertisingBtn:hover{
+	background-color: #AD0010;
+}
+
+.advertisingBtn img{
+	height: 1vw;
+	margin-right: 0.5vw;
+}
