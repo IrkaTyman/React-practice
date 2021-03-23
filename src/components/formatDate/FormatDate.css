@@ -1,0 +1,28 @@
+#rootDate {
+    width: 100%;
+    max-width: 1330px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2vw;
+}
+
+.video {
+    width: 100%;
+    padding: 0.4vw;
+    background: #000000;
+}
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+    width: 31.5vw;
+    height: 16.38vw;
+    border: none;
+}
+
+.video .date {
+    margin: 6px 0 0 0;
+    text-align: right;
+    font-size: 80%;
+    color: #ccc;
+}
