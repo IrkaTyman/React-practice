@@ -9,7 +9,6 @@ import {Dropdown} from './components/dropdown/Dropdown'
 import {HexInRgb} from './components/hexInRgb/HexInRgb'
 import {Workout} from './components/workout/Workout'
 import {Jandex} from './components/jandex/Jandex'
-import {Collapse} from './components/collapse/Collapse'
 import {WorldClocks} from './components/worldclock/WorldClocks'
 import {FormatDate} from './components/formatDate/FormatDate'
 
@@ -50,7 +49,6 @@ class App extends React.Component {
         		<NavLink to='/hir'>HEX в RGB</NavLink>
         		<NavLink to='/workout'>Учет тренировок</NavLink>
         		<NavLink to='/jandex'>Поисковик</NavLink>
-	            	<NavLink to='/collapse'>Collapse</NavLink>
         		<NavLink to='/worldclock'>worldclocks</NavLink>
         		<NavLink to='/formatdate'>Форматирование даты</NavLink>
 	    
@@ -84,7 +82,6 @@ class App extends React.Component {
 			<Route path='/hir' component = {HexInRgb}/>
 			<Route path='/workout' component = {Workout}/>
 			<Route path='/jandex' component = {Jandex}/>
-			<Route path='/collapse' component = {Collapse}/>
 			<Route path='/worldclock' component = {WorldClocks}/>
 			<Route path='/formatdate' component = {FormatDate}/>
         	</Switch>
